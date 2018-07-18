@@ -1,21 +1,28 @@
 /*Text format styles*/
-.left-grid h1{
-    text-align: right;
-    font-size: 12vw;
+
+a, a:hover
+{
+    display: inline;
+    color:white;
+    text-decoration: none currentColor solid;
 }
 
-.right-grid i{
-    font-size: 8vw;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1vw;
-    padding-left: 1.4vw;
+.left-grid h1{
+    display: none;
+}
+
+a:hover{
+    opacity: .6;
+}
+
+i{
+    padding-top: .85vw;
+    font-size:15vw;    
 }
 
 .right-grid h2{
     font-size: 8vw;
     text-align: left;
-    padding-left: 1vw;
 }
 
 .right-grid h3{
@@ -23,108 +30,180 @@
     text-align: center;
 }
 
-a, a:hover
-{
-    color:white;
-    text-decoration: none currentColor solid;
-}
-
-a:hover{
-    opacity: .6;
-}
-/*Grid layout styles*/
-.outer-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
-    padding-left: 10%;
-    padding-right: 10%;
-
-    align-items: center;
-
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.right-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 1vw;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    width: 100%;
-}
-
-/*Grid tile styles*/
-
-.right-grid>*{
-    border: .5vh solid white;
-}
-
-.tile-name{
-    grid-column: 2 / 4;
-    grid-row: 1;
-    display: none;
-}
-
-.tile-blog{
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.tile-github{
-    grid-column: 3;
-    grid-row: 2;
-}
-
-.tile-linkedin{
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.tile:before{
-    display: block;
-    padding-top: 100%;
-}
-
-.tile-contact{
-    grid-column: 1 / 3;
-    grid-row: 2;
-    font-size: 8vw;
-    word-wrap: break-word;
-}
-
-.tile-about{
-    grid-column: 2 / 4;
-    grid-row: 3 / 5;
-}
-
-/*.tile-github, .tile-about{
-    width: 33%;
-    width: calc(100% / 3);
-}*/
+/*
+    Mobile device styles
+*/
 
 @media (max-width: 800px){
-    .outer-wrapper{
-        grid-template-columns: 1fr;
+
+    /*Text format styles*/
+
+    i{
+        padding-top: .85vw;
+        font-size:13vw;    
     }
+
+    .right-grid h2{
+        padding-left: 1vw;
+        font-size: 12.5vw;
+        text-align: left;
+    }
+
+    hr{
+        margin-top: 10px;
+    }
+
+    .right-grid h3{
+    font-size: 6.5vw;
+    text-align: center;
+    }
+    
+    h1{
+        font-size: 15vw;
+        font-weight: 500;
+    }
+
+    .tile-blog i{
+        font-size: 33vw;
+    }
+
+    /*Grid layout styles*/
+
+    .outer-wrapper{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .right-grid>*{
+        border: 1vw solid white;
+    }
+
+    .header-name{
+        vertical-align: top;
+        text-align: center;
+    }   
 
     .right-grid{
-        grid-column: 2;
+        display: grid;
+        grid-template-columns: repeat(4, 17vw);
+        grid-template-rows: repeat(4, 17vw);
+        grid-gap: 4vw;
     }
 
-    .left-grid{
+    .tile-about{
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .tile-github{
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .tile-contact{
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+
+    .tile-linkedin{
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .tile-blog{
+        grid-column: 3 / 5;
+        grid-row: 3 / 5;
+    }
+}
+
+/*
+    Desktop and Tablet styles
+*/
+
+@media (min-width: 801px){
+    /*Text format styles*/
+    i{
+        padding-top: .85vw;
+        font-size: 10vw;
+    }
+
+    .left-grid h1{
+        display: block;
+        text-align: right;
+        font-size: 12vw;
+    }
+
+    .tile-name h1{
+        font-size: 12vw;
+    }
+ 
+    .right-grid h2{
+        font-size: 8vw;
+        text-align: left;
+    }
+    
+    .right-grid h3{
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .right-grid>*{
+        border: .5vw solid white;
+    }
+
+    /*Grid layout styles*/
+    .outer-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+    
+        align-items: center;
+    
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .right-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 12.5vw);
+        grid-template-rows: repeat(5, 12.5vw);
+        grid-gap: 1vw;
+    }
+    
+    /*Grid tile styles*/
+    
+    .header-name{
         display: none;
     }
-
-    .tile-name{
-        display: block;
+    
+    .tile-blog{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .tile-github{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    .tile-linkedin{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .tile-contact{
+        grid-column: 1 / 3;
+        grid-row: 2;
+        font-size: 8vw;
+        word-wrap: break-word;
+    }
+    
+    .tile-about{
+        grid-column: 2 / 4;
+        grid-row: 3 / 5;
     }
 }
