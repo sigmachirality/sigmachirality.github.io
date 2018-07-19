@@ -122,6 +122,10 @@ i{
 
 @media (min-width: 801px){
     /*Text format styles*/
+    hr{
+        display: none;
+    }
+
     i{
         padding-top: .85vw;
         font-size: 10vw;
