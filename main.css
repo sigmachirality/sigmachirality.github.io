@@ -2,3 +2,14 @@ body {
     background-color: black !important;
     color: white !important;
 }
+
+a, a:hover
+{
+    display: inline;
+    color:white;
+    text-decoration: none currentColor solid;
+}
+
+a:hover{
+    opacity: .6;
+}
