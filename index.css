@@ -7,10 +7,6 @@ a, a:hover
     text-decoration: none currentColor solid;
 }
 
-.left-grid h1{
-    display: none;
-}
-
 a:hover{
     opacity: .6;
 }
@@ -37,6 +33,10 @@ i{
 @media (max-width: 800px){
 
     /*Text format styles*/
+
+    .left-grid{
+        display: none;
+    }
 
     i{
         padding-top: .85vw;
@@ -120,6 +120,7 @@ i{
     Desktop and Tablet styles
 */
 
+
 @media (min-width: 801px){
     /*Text format styles*/
     hr{
@@ -132,9 +133,15 @@ i{
     }
 
     .left-grid h1{
-        display: block;
+        display: inline-block;
+        bottom: 1vw;
+        left: 13vw;
+    }
+
+    .left-grid h1{
         text-align: right;
         font-size: 12vw;
+        position: fixed;
     }
 
     .tile-name h1{
@@ -159,12 +166,12 @@ i{
     .outer-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
+        grid-gap: 4vw;
     
         align-items: center;
     
         position: absolute;
-        top:0;
+        top:1vw;
         bottom: 0;
         left: 0;
         right: 0;
@@ -209,5 +216,16 @@ i{
     .tile-about{
         grid-column: 2 / 4;
         grid-row: 3 / 5;
+    }
+}
+
+@media (max-aspect-ratio: 4/3){
+    .left-grid h1{
+        text-align: right;
+        vertical-align: middle;
+        float: right;
+        position: inherit;
+        bottom: auto;
+        left: auto;
     }
 }
