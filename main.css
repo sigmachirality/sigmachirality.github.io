@@ -13,3 +13,24 @@ a, a:hover
 a:hover{
     opacity: .6;
 }
+
+/*
+Text Section styles
+*/
+.text-section{
+    height: auto;
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+}
+
+.text-section h1 {
+    font-size: 9vw;
+}
+
+.text-section p {
+    font-size: 1.5vw;
+}
+
+.text-section hr{
+    border-top: .5vw solid #eee;
+}
