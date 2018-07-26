@@ -18,6 +18,23 @@ a:hover{
     opacity: .6;
 }
 
+.navbar {
+    background: #000;
+}
+
+.navbar-fixed-top{
+    border-bottom-width : .2vw;
+}
+
+.navtabs {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.navbar-brand .navtabs {
+    font-size: 2.25vw;
+}
+
 /*
 Text Section styles
 */
