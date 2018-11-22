@@ -2,3 +2,20 @@
     border: none;
 }
 
+.text-section{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+#bio {
+    padding-top: 12vw;
+}
+
+#raq {
+    padding-bottom: 12vw;
+}
+
+.navbar-nav>.active>a{
+    background-color: black !important; 
+
+}

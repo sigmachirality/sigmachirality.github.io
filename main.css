@@ -48,7 +48,11 @@ Text Section styles
     font-size: 9vw;
 }
 
-.text-section p {
+.text-section h2 {
+    font-size: 5vw;
+}
+
+.text-section p, .text-section li {
     font-size: 1.5vw;
 }
 

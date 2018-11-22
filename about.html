@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ"
     crossorigin="anonymous">
 
+  <!-- Scrolling CSS -->
+  <link href="scrolling-nav.css" rel="stylesheet">
+
   <!-- DTao's template css-->
   <link href="main.css" rel="stylesheet">
 
@@ -30,8 +33,12 @@
     <![endif]-->
 </head>
 
+<body id="page-top" data-spy="scroll" data-target".navbar-fixed-top">
+
+
+
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 
       <div class="navbar-header page-scroll">
@@ -41,7 +48,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand page-scroll" href="/">
           <p class="navtabs">Home</p>
         </a>
       </div>
@@ -61,11 +68,11 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">
+          <li><a class="page-scroll" href="#bio">
               <p class="navtabs">Bio</p>
           </a></li>
-          <li><a href="#">
-              <p class="navtabs">FAQ</p>
+          <li><a class="page-scroll" href="#raq">
+              <p class="navtabs">RAQ</p>
           </a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -88,19 +95,40 @@
                   music production, hacking, and eating.
                 </p>
             </div>
-          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="faq">
+  <!--
+  <section id="raq" class="text-section">
+      <div class="container">
+          <div class="row vertical-align">
+            <div class="col-xs-12">
+                <h2 style="width: 100%;"><t title="Nobody has ever asked for any of this.">Rarely*</t> Asked Questions</h2>
+                <hr />
+                <ul>
+                  <li>Why are you like this?</li>
+                  <li>Fried foods power ranking?</li>
+                  <li>The objective best way to increase my (gravitational) potential?</li>
+                  <li>Thoughts on alpacas?</li>
+                  <li>Best rhythm game level?</li>
+                  <li>Yeet?</li>
+                </ul>
+            </div>
+        </div>
+      </div>
 
-
-  </section>
+    </section>
+    -->
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <!-- Scrolling Nav JavaScript -->
+   <script src="js/jquery.easing.min.js"></script>
+   <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
