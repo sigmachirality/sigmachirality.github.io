@@ -204,6 +204,7 @@
         grid-row: 2;
         font-size: 8vw;
         word-wrap: break-word;
+        color: lightcoral !important;
     }
     
     .tile-about{
@@ -211,6 +212,10 @@
         grid-row: 3 / 5;
         border: .5vw solid lightcoral;
     }
+}
+
+.lightcoral{
+    color: lightcoral !important;
 }
 
 @media (max-aspect-ratio: 4/3){
