@@ -187,6 +187,7 @@
     .tile-blog{
         grid-column: 1;
         grid-row: 1;
+        border: .5vw solid lightcoral;
     }
     
     .tile-github{
