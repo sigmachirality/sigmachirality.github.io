@@ -1,5 +1,6 @@
-#profile-picture{
-    border: none;
+a, a:hover
+{
+    color:lightcoral;
 }
 
 .text-section{
@@ -7,9 +8,9 @@
     padding-bottom: 6vw;
 }
 
-#bio {
+/* #bio {
     padding-top: 12vw;
-}
+} */
 
 #raq {
     padding-bottom: 12vw;
@@ -18,4 +19,8 @@
 .navbar-nav>.active>a{
     background-color: black !important; 
 
+}
+
+br {
+    line-height: 0;
 }

@@ -5,11 +5,7 @@ Reset styles
 body {
     background-color: black !important;
     color: white !important;
-    font-family: "Raleway";
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Cabin";
+    font-family: "Roobert Regular";
 }
 
 a, a:hover
@@ -64,6 +60,11 @@ Text Section styles
 .text-section hr{
     border-top: .5vw solid #eee;
 }
+
+img {
+    border: .5vw solid #eee;
+}
+
 
 /*
 Layout styles

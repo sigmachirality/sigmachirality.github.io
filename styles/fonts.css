@@ -4,7 +4,7 @@
 font-family: 'Roobert Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Regular'), url('RoobertRegular.woff') format('woff');
+src: local('Roobert Regular'), url('./styles/fonts/RoobertRegular.woff') format('woff');
 }
 
 
@@ -12,7 +12,7 @@ src: local('Roobert Regular'), url('RoobertRegular.woff') format('woff');
 font-family: 'Roobert Regular Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Regular Italic'), url('RoobertRegularItalic.woff') format('woff');
+src: local('Roobert Regular Italic'), url('./styles/fonts/RoobertRegularItalic.woff') format('woff');
 }
 
 
@@ -20,7 +20,7 @@ src: local('Roobert Regular Italic'), url('RoobertRegularItalic.woff') format('w
 font-family: 'Roobert Light';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Light'), url('RoobertLight.woff') format('woff');
+src: local('Roobert Light'), url('./styles/fonts/RoobertLight.woff') format('woff');
 }
 
 
@@ -28,7 +28,7 @@ src: local('Roobert Light'), url('RoobertLight.woff') format('woff');
 font-family: 'Roobert Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Light Italic'), url('RoobertLightItalic.woff') format('woff');
+src: local('Roobert Light Italic'), url('./styles/fonts/RoobertLightItalic.woff') format('woff');
 }
 
 
@@ -36,7 +36,7 @@ src: local('Roobert Light Italic'), url('RoobertLightItalic.woff') format('woff'
 font-family: 'Roobert Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Medium'), url('RoobertMedium.woff') format('woff');
+src: local('Roobert Medium'), url('./styles/fonts/RoobertMedium.woff') format('woff');
 }
 
 
@@ -44,7 +44,7 @@ src: local('Roobert Medium'), url('RoobertMedium.woff') format('woff');
 font-family: 'Roobert Medium Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Medium Italic'), url('RoobertMediumItalic.woff') format('woff');
+src: local('Roobert Medium Italic'), url('./styles/fonts/RoobertMediumItalic.woff') format('woff');
 }
 
 
@@ -52,7 +52,7 @@ src: local('Roobert Medium Italic'), url('RoobertMediumItalic.woff') format('wof
 font-family: 'Roobert SemiBold';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert SemiBold'), url('RoobertSemiBold.woff') format('woff');
+src: local('Roobert SemiBold'), url('./styles/fonts/RoobertSemiBold.woff') format('woff');
 }
 
 
@@ -60,7 +60,7 @@ src: local('Roobert SemiBold'), url('RoobertSemiBold.woff') format('woff');
 font-family: 'Roobert SemiBold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert SemiBold Italic'), url('RoobertSemiBoldItalic.woff') format('woff');
+src: local('Roobert SemiBold Italic'), url('./styles/fonts/RoobertSemiBoldItalic.woff') format('woff');
 }
 
 
@@ -68,7 +68,7 @@ src: local('Roobert SemiBold Italic'), url('RoobertSemiBoldItalic.woff') format(
 font-family: 'Roobert Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Bold'), url('RoobertBold.woff') format('woff');
+src: local('Roobert Bold'), url('./styles/fonts/RoobertBold.woff') format('woff');
 }
 
 
@@ -76,7 +76,7 @@ src: local('Roobert Bold'), url('RoobertBold.woff') format('woff');
 font-family: 'Roobert Bold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Bold Italic'), url('RoobertBoldItalic.woff') format('woff');
+src: local('Roobert Bold Italic'), url('./styles/fonts/RoobertBoldItalic.woff') format('woff');
 }
 
 
@@ -84,7 +84,7 @@ src: local('Roobert Bold Italic'), url('RoobertBoldItalic.woff') format('woff');
 font-family: 'Roobert Heavy';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Heavy'), url('RoobertHeavy.woff') format('woff');
+src: local('Roobert Heavy'), url('./styles/fonts/RoobertHeavy.woff') format('woff');
 }
 
 
@@ -92,5 +92,5 @@ src: local('Roobert Heavy'), url('RoobertHeavy.woff') format('woff');
 font-family: 'Roobert Heavy Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Roobert Heavy Italic'), url('RoobertHeavyItalic.woff') format('woff');
+src: local('Roobert Heavy Italic'), url('./styles/fonts/RoobertHeavyItalic.woff') format('woff');
 }

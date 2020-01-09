@@ -41,8 +41,9 @@
     }
 
     .right-grid h3{
-    font-size: 6.5vw;
-    text-align: center;
+        margin-top: 2vw;
+        font-size: 10vw;
+        text-align: center;
     }
     
     h1{
@@ -52,7 +53,7 @@
         animation-duration: 2s;
     }
 
-    .tile-blog i{
+    .tile-github i{
         font-size: 33vw;
     }
 
@@ -82,9 +83,10 @@
     .tile-about{
         grid-column: 1 / 3;
         grid-row: 1 / 3;
+        border: 1vw solid lightcoral;
     }
 
-    .tile-github{
+    .tile-linkedin{
         grid-column: 3;
         grid-row: 2;
     }
@@ -94,12 +96,12 @@
         grid-row: 3;
     }
 
-    .tile-linkedin{
+    .tile-blog{
         grid-column: 2;
         grid-row: 4;
     }
 
-    .tile-blog{
+    .tile-github{
         grid-column: 3 / 5;
         grid-row: 3 / 5;
     }
@@ -117,13 +119,13 @@
     }
 
     i{
-        padding-top: .85vw;
-        font-size: 10vw;
+        padding-top: .5vw;
+        font-size: 9.5vw;
     }
 
     .left-grid h1{
         display: inline-block;
-        bottom: 1vw;
+        top: 20vw;
         left: 13vw;
 
         text-align: right;
@@ -141,10 +143,11 @@
     .right-grid h2{
         font-size: 8vw;
         text-align: left;
+        margin-left: 1vw;
     }
     
     .right-grid h3{
-        font-size: 4.5vw;
+        font-size: 6.25vw;
         text-align: center;
     }
 
@@ -170,8 +173,8 @@
     
     .right-grid{
         display: grid;
-        grid-template-columns: repeat(3, 12.5vw);
-        grid-template-rows: repeat(5, 12.5vw);
+        grid-template-columns: repeat(3, 11.5vw);
+        grid-template-rows: repeat(5, 11.5vw);
         grid-gap: 1vw;
     }
     
@@ -206,6 +209,7 @@
     .tile-about{
         grid-column: 2 / 4;
         grid-row: 3 / 5;
+        border: .5vw solid lightcoral;
     }
 }
 
