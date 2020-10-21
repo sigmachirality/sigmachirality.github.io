@@ -17,15 +17,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown`,
-        path: `${__dirname}/src/markdown`,
+        name: `blog`,
+        path: `${__dirname}/src/blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/blog`,
+        name: `markdown`,
+        path: `${__dirname}/src/markdown`,
       },
     },
     {
@@ -33,6 +33,14 @@ module.exports = {
       options: {
         plugins: [`gatsby-remark-reading-time`, `gatsby-remark-prismjs`],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Raleway']
+        }
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
