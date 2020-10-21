@@ -1,11 +1,11 @@
-import RoobertLight from '../fonts/RoobertLight.woff2'
-import RoobertRegular from '../fonts/RoobertRegular.woff2'
-import RoobertMedium from '../fonts/RoobertMedium.woff2'
-import RoobertSemiBold from '../fonts/RoobertSemiBold.woff2'
-import RoobertBold from '../fonts/RoobertBold.woff2'
-import RoobertHeavy from '../fonts/RoobertHeavy.woff2'
+import RoobertLight from '../../fonts/RoobertLight.woff2'
+import RoobertRegular from '../../fonts/RoobertRegular.woff2'
+import RoobertMedium from '../../fonts/RoobertMedium.woff2'
+import RoobertSemiBold from '../../fonts/RoobertSemiBold.woff2'
+import RoobertBold from '../../fonts/RoobertBold.woff2'
+import RoobertHeavy from '../../fonts/RoobertHeavy.woff2'
 
-const Roobert = `
+const RoobertNormal : String = `
     /* Roobert Normal */
     @font-face {
         font-family: Roobert;
@@ -45,14 +45,14 @@ const Roobert = `
     }
 `
 
-import RoobertLightItalic from '../fonts/RoobertLightItalic.woff2'
-import RoobertRegularItalic from '../fonts/RoobertRegularItalic.woff2'
-import RoobertMediumItalic from '../fonts/RoobertMediumItalic.woff2'
-import RoobertSemiBoldItalic from '../fonts/RoobertSemiBoldItalic.woff2'
-import RoobertBoldItalic from '../fonts/RoobertBoldItalic.woff2'
-import RoobertHeavyItalic from '../fonts/RoobertHeavyItalic.woff2'
+import RoobertLightItalic from '../../fonts/RoobertLightItalic.woff2'
+import RoobertRegularItalic from '../../fonts/RoobertRegularItalic.woff2'
+import RoobertMediumItalic from '../../fonts/RoobertMediumItalic.woff2'
+import RoobertSemiBoldItalic from '../../fonts/RoobertSemiBoldItalic.woff2'
+import RoobertBoldItalic from '../../fonts/RoobertBoldItalic.woff2'
+import RoobertHeavyItalic from '../../fonts/RoobertHeavyItalic.woff2'
 
-const RoobertItalic = `
+const RoobertItalic : String = `
     @font-face {
         font-family: Roobert;
         font-weight: 200;
@@ -91,7 +91,7 @@ const RoobertItalic = `
     }
 `
 
-export default `
-    ${Roobert}
+export const Roobert : String = `
+    ${RoobertNormal}
     ${RoobertItalic}
 `
